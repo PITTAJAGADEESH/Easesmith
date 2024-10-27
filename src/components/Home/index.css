@@ -1,0 +1,137 @@
+.bg-container {
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  background-size: cover;
+}
+
+.header {
+  display: flex;
+  height: 6vh;
+  align-items: center;
+  background-color: #165315;
+  color: #ffffff;
+  font-size: 14px;
+  justify-content: space-around;
+}
+
+.search-bar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.search-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-style: none;
+  border-bottom: 1px solid #00000099;
+  padding: 8px;
+  height: 26px;
+  width: 370px;
+  padding-bottom: 0%;
+}
+
+.search-input {
+  border-style: none;
+  flex: 1;
+  font-weight: 400;
+  color: #838383;
+}
+
+.search-icon {
+  width: 18.33px;
+  height: 18.33px;
+  margin-right: 8px;
+}
+
+.search-container:hover {
+  border-color: #888;
+}
+
+.plants-section {
+  padding-left: 16px;
+}
+
+.header-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.option {
+  padding: 8px 16px;
+  border-radius: 3px;
+  font-size: 20px;
+}
+
+.plants-option {
+  background-color: #165315;
+  color: #fff;
+  margin-right: 8px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.pots-option {
+  border: 1px solid #0000004d;
+  font-weight: 300;
+  color: #0000004d;
+  text-align: center;
+}
+
+.description {
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  color: #838383;
+}
+
+.nursery-section {
+  margin-top: 16px;
+}
+
+.nursery-headers {
+  font-size: 24px;
+  font-weight: 600;
+  text-align: left;
+  color: #000000;
+}
+
+.plant-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.plant-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.plant-image {
+  width: 120px;
+  height: 120px;
+}
+
+.detail-container {
+  margin-top: 8px;
+}
+
+.plant-details {
+  color: #838383;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.filter-products-container {
+  margin-top: 16px;
+}
+
+.footer-container {
+  background-color: #f0ffe5;
+}

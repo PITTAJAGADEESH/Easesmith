@@ -1,0 +1,87 @@
+.filter-products-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.filter-options-list {
+  list-style: none;
+  padding: 10px;
+  margin: 0;
+  width: 304px;
+  height: fit-content;
+  background-color: #f0ffe5;
+}
+
+.filter-option-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #a8a8a8;
+  color: #6e6e6e;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.product-value {
+  margin-left: 10px;
+}
+
+.product-count {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.count-edit {
+  font-size: 15px;
+  font-weight: 400;
+  color: #6a6a6a;
+}
+
+.dropdown {
+  position: relative;
+  margin-left: 10px;
+}
+
+.dropdown-toggle {
+  background-color: #165315;
+  color: #ffffff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #165315;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+  margin-top: 5px;
+}
+
+.dropdown-menu.show {
+  display: block;
+}
+
+.dropdown-item {
+  padding: 5px;
+  cursor: pointer;
+}
+
+.dropdown-item:hover {
+  background-color: #ccc;
+  color: #165315;
+}
+
+.cart-items-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+}

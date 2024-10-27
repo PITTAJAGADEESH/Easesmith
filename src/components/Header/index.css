@@ -1,0 +1,105 @@
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+}
+
+.company-icon {
+  display: flex;
+  align-items: center;
+}
+
+.company-logo {
+  width: 60px;
+  height: 61px;
+}
+
+.name {
+  color: #0f4811;
+  font-size: 25px;
+  font-weight: 600;
+  padding-left: 10px;
+}
+
+.options-container {
+  display: flex;
+  align-items: center;
+}
+
+.list-items {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.list-arrange {
+  margin-left: 10px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.icon-edit {
+  display: flex;
+  align-items: center;
+}
+
+.icons {
+  text-align: center;
+  margin-left: 15px;
+}
+
+.icon-p {
+  font-size: 13px;
+  font-weight: 600;
+  margin-top: 5px;
+}
+
+.icon-size {
+  width: 20px;
+  height: 20px;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #165315;
+  border: 1px solid;
+  border-radius: 5px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  margin: 0;
+  padding: 5px;
+  z-index: 1000;
+  list-style-type: none;
+  cursor: pointer;
+  color: #fff;
+  font-weight: lighter;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.plants-pots-option {
+  color: #f3a939;
+  text-decoration: underline;
+}
+
+.nav-option {
+  background-color: transparent;
+  border-width: 0px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 0%;
+}
