@@ -16,8 +16,8 @@ This project is a React-based UI for an E-commerce Listing Page designed to disp
 
 1. Clone the repository
 
-   - `git clone https://github.com/yourusername/ecommerce-listing-page.git`
-   - `cd ecommerce-listing-page`
+   - `git clone https://github.com/PITTAJAGADEESH/Easesmith.git`
+   - `cd Easesmith\client>`
 
 2. Install dependencies
 
@@ -26,7 +26,7 @@ This project is a React-based UI for an E-commerce Listing Page designed to disp
 3. Start the development server
    - `npm start`
 
-Your application will be running at `http://localhost:3000`.
+Application will be running at `https://easesmith-01m9.onrender.com`.
 
 ## Project Structure
 
@@ -49,8 +49,3 @@ The project is structured into the following main components:
 
 - **Viewing Products**: Click the "View Product" button on any product card to be redirected to the "Thank You" page.
 - **Adding to Cart**: Click the "Add to Cart" button to open a modal displaying the product details and a confirmation button.
-
-## Challenges Faced
-
-- Implementing the modal functionality required careful management of state to ensure the correct product details were displayed.
-- Ensuring the pagination worked smoothly with the mock data was challenging but manageable with React state management.
